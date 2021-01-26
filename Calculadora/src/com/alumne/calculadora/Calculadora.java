@@ -10,6 +10,9 @@ import org.eclipse.swt.widgets.Text;
 import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;
 
+//Després de modificar la ruta als JAR i al JRE (default) feu un commit sense pujar el fitxer .classpath
+//Aneu amb compte amb la codificació de caracters perquè produeix errors de compilació difícils de detectar, potser falla un import per un caracter invisible
+
 public class Calculadora {
 
 	// Constants
